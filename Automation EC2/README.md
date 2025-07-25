@@ -19,14 +19,14 @@ Stage-based config loading (Dev, Prod)       yes
 
 ### css 
 ec2-deployment/ 
-├── main.tf 
-├── variables.tf 
-├── outputs.tf 
-├── user_data.sh 
-├── configs/ 
+──> main.tf 
+├──> variables.tf 
+├──> outputs.tf 
+├──> user_data.sh 
+├──> configs/ 
 │ 
-|     ├── dev_config
-|     └── prod_config
+|     ├──> dev_config
+|     └──> prod_config
 
 ## Step-by-step Breakdown 
 
